@@ -26,9 +26,11 @@ export class EmployeeDetailsComponent implements OnInit {
         this.event = empdetails;
         console.log(this.event);
         });
-  };
 
-}}
+    });
+  }
+
+}
 /*empserviceservice: EmpServiceService;
 id: string;
   constructor( empserviceservice: EmpServiceService) {
