@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/200f2e7a-e752-4047-92ee-879502ef8781/resourceGroups/aws-rg-dto-dev-n-eu/providers/Microsoft.Web/sites/empdetails",
+    "appService.deploySubpath": "dist\\Employee"
+}

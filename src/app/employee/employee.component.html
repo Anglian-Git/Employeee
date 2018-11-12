@@ -1,0 +1,28 @@
+
+<div class="container-fluid " style="background-color: #DDF1F3">
+  <form [formGroup]="eform">
+    <div class="wrap">
+      <h5 class="text-center" style="color: #00B4CC">
+        Search for Employee Details
+      </h5>
+      <div>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="id"
+          [(ngModel)]="id"
+          placeholder="Enter Employee Id"
+        />
+        <button class="input-group-addon " 
+          [routerLink]="['/employee-details', id]"
+          type="submit"
+          class="btn btn-primary"
+          [disabled]="!eform.valid"
+        >
+          <i class="fa fa-search"></i>
+       </button>       
+      </div>
+    </div>
+  </form>
+</div>
+
