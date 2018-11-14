@@ -14,8 +14,7 @@ export class EmployeeComponent implements OnInit {
   eform: FormGroup;
 
   errorText: string;
- 
-  constructor(private router: Router) { }
+   constructor() { }
 
 
 

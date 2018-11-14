@@ -6,16 +6,8 @@
         Search for Employee Details
       </h5>
       <div>
-        <input
-          type="text"
-          class="form-control"
-          formControlName="id"
-          [(ngModel)]="id"
-          placeholder="Enter Employee Id"
-        />
-        <button class="input-group-addon " 
-          [routerLink]="['/employee-details', id]"
-          type="submit"
+        <input type="text"class="form-control" formControlName="id"placeholder="Enter Employee Id" />
+        <button class="input-group-addon " [routerLink]="['/employee-details', id]"type="submit"
           class="btn btn-primary"
           [disabled]="!eform.valid"
         >
